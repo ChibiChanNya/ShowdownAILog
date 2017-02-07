@@ -1,0 +1,16 @@
+{
+  "name": "showdown-connect",
+  "version": "1.0.0",
+  "description": "Connecting to pokemon showdown! servers to run AI",
+  "main": "start.js",
+  "dependencies": {
+    "init": "^0.1.2",
+    "sockjs": "^0.3.18"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "author": "ChibiNya",
+  "license": "ISC"
+}
