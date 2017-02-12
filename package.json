@@ -6,6 +6,8 @@
   "dependencies": {
     "init": "^0.1.2",
     "request": "^2.79.0",
+    "sockjs": "^0.3.18",
+    "sockjs-client-ws": "^0.1.0"
   },
   "devDependencies": {},
   "scripts": {
