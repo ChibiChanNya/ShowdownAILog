@@ -68,18 +68,33 @@ function processMessage(message){
             state[chunks[0]].active_pokemon.hp = myside.side.pokemon[0].condition.substr(0,3);
             break;
 
-        // case "player":
-        //     let enemySide=
-        //     break;
+        case "choice":
+            let lines = message.split('\n');
+            lines.forEach( function(line){
 
+            });
+            processMove(lines[4]);
+            processEffect(lines[5]);
+            processMove(lines[6]);
+            processEffect(lines[7]);
     }
-    if(chunks[1] == "challstr"){
 
-    }
 }
 
 
+function processEffect(line){
 
+}
+
+function processMove(line){
+    let pieces = line.split['|'];
+    let player = pieces.substr(0,2);
+    let pokemon_name = pieces[2].substr(5);
+    let move = pieces[3];
+    let side = (player == state.my_id)? "my_team" : "enemy_team";
+
+
+}
 
 
 /// MAIN FLOW
